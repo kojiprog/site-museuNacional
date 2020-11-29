@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Museu Nacional</title>
+	<!-- CONF CSS -->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<!-- CONF NORMALIZE -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+	<div id="container"><!-- INICIO CONTAINER -->
+		
+		<header><!-- INICIO HEADER -->
+			<div id="logo">
+				<h1><a href="#">Museu nacional</a></h1>
+			</div>
+
+		<nav><!-- INICIO NAV -->
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">EXPOSIÇÕES</a></li>
+				<li><a href="#">PESQUISA</a></li>
+				<li><a href="#">ACERVO</a></li>
+				<li><a href="#">VIDEOS</a></li>
+				<li><a href="#">FOTOS</a></li>
+				<li><a href="#">CONTATO</a></li>
+			</ul>
+		</nav><!-- FIM NAVE -->
+
+		</header><!-- FIM HEADER -->
+
+		<div id="principal"><!-- INICIO PRINCIPAL -->
+			<div id="conteudo">
+				<section id="capa">
+					<img src="img/museu.png">
+				</section>
+
+				<section id="postagens">
+					<article id="video">
+						<h3>Conheça o museu</h3>
+						<iframe width="310" height="170" src="https://www.youtube-nocookie.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</article>
+
+					<article id="mapa">
+						<h3>Mapa:Encontre o museu</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2064455959203!2d-43.22872294889363!3d-22.90575504352068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1606662963441!5m2!1spt-BR!2sbr" width="310" height="170" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</article>
+
+					<article id="exposicoes">
+						<h3>Exposições</h3>
+						<ul>
+							
+								<li><a href="#">Os assustadores insetos</a></li>
+								<li><a href="#">O crânio da Luzia, a mulher mais antiga do Brasil</a></li>
+								<li><a href="#">Preguiça gigante e Tigre-dentes-de-sabre</a></li>
+								<li><a href="#">Plantas do Brasil Central</a></li>
+								<li><a href="#">Teresa Cristina: A Imperatriz Arquióloga</a></li>
+								<li><a href="#">Arte com Dinossauros - Paleoarte</a></li>
+								<li><a href="#"><strong>Veja todos (65)</strong></a></li>
+							
+						</ul>
+					</article>
+
+					<article id="historia">
+						<h3>200 anos de história</h3>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+						</p>
+						<a href="#"><strong>Leia mais</strong></a>
+					</article>
+
+				</section>
+
+			</div>
+
+			<aside><!-- INICIO ASIDE -->
+
+				<section id="depoimento">
+					<img src="img/depoimento.png">
+				</section>
+
+				<section id="visita"><!-- INICIO SESSÃO VISITA -->
+					<h4>Faça uma visita</h4>
+					<form>
+						<fieldset>
+							<legend>Selecione uma data</legend>
+
+							<label for="data">Data</label>
+							<input class="campo" type="date" name="data" >
+							<br><br>	
+
+							<label for="qtd">Qtd pessoas</label>
+							<input class="campo" type="number" style="width: 30px" name="qtd" value="1" >
+
+						</fieldset>
+
+						<input class="botao" type="submit" value="Verificar disponibilidade">
+					</form>
+				</section><!-- FIM SESSÃO VISITA -->
+
+				<section id="galeria">
+					<h4>Galeria de fotos</h4>
+
+					<a href="#">
+						<img src="img/imagem1.jpg" height="93px" width="93px" alt="imagem1">
+					</a>
+					<a href="#">
+						<img src="img/imagem2.jpg" height="93px" width="93px" alt="imagem2">
+					</a>
+					<a href="#">
+						<img src="img/imagem3.jpg" height="93px" width="93px" alt="imagem3">
+					</a>
+					<a href="#">
+						<img src="img/imagem4.jpg" height="93px" width="93px" alt="imagem4">
+					</a>
+
+				</section>
+
+			</aside><!-- FIM ASIDE -->
+
+			<footer>
+				<p>
+					<a href="#">HOME</a>
+					<a href="#">EXPOSIÇÕES</a>
+					<a href="#">PESQUISA</a>
+					<a href="#">ACERVO</a>
+					<a href="#">VIDEOS</a>
+					<a href="#">FOTOS</a>
+					<a href="#">CONTATO</a>
+				</p>
+				<p>
+					2019 <a href="#">Museu Nacional</a> - Todos os direiros reservados
+				</p>
+			</footer>
+
+		</div><!-- FIM PRINCIPAL -->
+	
+	</div><!-- FIM CONTAINER -->
+
+</body>
+</html>
